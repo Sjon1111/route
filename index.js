@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const cors = require('cors');
+
 const port = 8000; // You can choose any available port
 
 // Middleware to parse JSON in the request body
